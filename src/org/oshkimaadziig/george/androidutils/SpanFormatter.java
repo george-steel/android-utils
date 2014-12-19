@@ -93,7 +93,7 @@ public class SpanFormatter {
 				int argIdx = 0;
 				if (argTerm.equals("")) argIdx = ++argAt;
 				else if (argTerm.equals("<")) argIdx = argAt;
-				else argIdx = Integer.parseInt(argTerm.substring(0, argTerm.length() - 1));
+				else argIdx = Integer.parseInt(argTerm.substring(0, argTerm.length() - 1)) -1;
 				
 				Object argItem = args[argIdx];
 				
