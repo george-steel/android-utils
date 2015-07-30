@@ -87,7 +87,7 @@ public class SpanFormatter {
 			
 			if (typeTerm.equals("%")){
 				cookedArg = "%";
-			}else if (typeTerm.equals("%")){
+			}else if (typeTerm.equals("n")){
 				cookedArg = "\n";
 			}else{
 				int argIdx = 0;
